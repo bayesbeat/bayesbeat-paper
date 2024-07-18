@@ -9,7 +9,7 @@ axes.titlesize : large
 axes.labelsize : 9
 axes.formatter.use_mathtext : True
 axes.linewidth : 0.5
-axe.grid : True
+axes.grid : True
 
 ### Grid lines
 grid.linewidth : 0.5

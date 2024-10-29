@@ -9,11 +9,16 @@ with an `Injection` and a `Noise` section
 bayesbeat_generate_injections injections.ini --n-injections 8 --filename data/injections.hdf5
 ```
 
-Unless specified in `[Injection]`, parameters will be drawn uniformly from the specfied prior bounds.
+Unless specified in `[Injection]`, parameters will be drawn uniformly from the specified prior bounds.
 
 The noise is controlled via the `Noise` section which includes different amplitudes for the different types of noise.
 
 See `injections.ini` for an example ini file.
+
+### Specific injection files
+
+The specific injections were generated using `generate_injections.sh`.
+This script produces 64 injections. It also produces plots for each injection
 
 ## Analyzing
 

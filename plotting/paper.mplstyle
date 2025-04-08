@@ -2,7 +2,7 @@
 
 ### Colours
 # Based on seaborn 'colorblind' pallette converted to hex
-axes.prop_cycle : (cycler('color', ['0173b2', 'de8f05', '029e73', 'd55e00', 'cc78bc', 'ca9161', 'fbafe4', '949494', 'ece133', '56b4e9']))
+axes.prop_cycle : (cycler('color', ['648FFF', 'DC267F', 'FFB000']))
 
 ### Axes
 axes.titlesize : large

@@ -1,13 +1,15 @@
 #!/usr/bin/env python
-NINJ=50
-FILENAME="data/injections_dataset.hdf5"
-FIGURE_DIR="figures"
+FILENAME=$1
+NINJ=$2
+FIGURE_DIR="figures/simulated_data/"
+PARAMETERS="parameters.json"
 echo Generating $NINJ injections and saving to $FILENAME
 
 bayesbeat_generate_injections \
     injections_config.ini \
     --n-injections $NINJ \
     --filename $FILENAME \
+    --parameters $PARAMETERS \
     --seed 42
 
 echo Producing data plots and saving to: $FIGURE_DIR

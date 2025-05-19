@@ -1,13 +1,8 @@
 name: bayes-beat
 channels:
-  - pytorch
-  - astropy
   - conda-forge
-  - defaults
 dependencies:
-  - numpy<2.0
-  - pytorch
-  - cpuonly
+  - pytorch-cpu
   - nessai
   - pycondor
   - hdf5storage
@@ -19,6 +14,4 @@ dependencies:
   - click
   - seaborn
   - sympy
-  - pip
-  - pip:
-    - git+https://github.com/mj-will/nessai.git@mcmc-dev
+  - nbconvert

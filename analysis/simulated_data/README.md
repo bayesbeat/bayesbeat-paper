@@ -43,7 +43,7 @@ This script produces 50 injections. It also produces plots for each injection
 
 ## Analyzing
 
-Analyzing injections is identical to analyzing simulated data; you only need to change the path to the data file.
+Analyzing injections is identical to analyzing real data; you only need to change the path to the data file.
 
 ### Priors
 

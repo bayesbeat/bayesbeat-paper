@@ -61,3 +61,9 @@ unzip bayesbeat_inference_results.zip
 ```
 
 For details about the data release structure, see the [Zenodo record](10.5281/zenodo.15479247)
+
+
+## Reference results
+
+`reference_results.txt` obtains results produced using the previous fitting method described in
+[Vajente et al.](https://doi.org/10.1063/1.4990036) which are used in Figure 14.

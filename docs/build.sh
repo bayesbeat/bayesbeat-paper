@@ -1,7 +1,7 @@
 #!/bin/bash
-rm -rf _source _build _notebooks
-mkdir -p _source/markdown
-mkdir -p _source/notebooks
-
-rsync -av --prune-empty-dirs --exclude 'docs/' --include='*/' --include='*.md' --exclude='*' ../ _source/markdown/
+rm -f analysis plotting results data
+ln -s ../analysis analysis
+ln -s ../plotting plotting
+ln -s ../results results
+ln -s ../data data
 jupyter-book build .

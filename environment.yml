@@ -2,6 +2,7 @@ name: bayes-beat
 channels:
   - conda-forge
 dependencies:
+  - numpy<2.0
   - pytorch-cpu
   - nessai
   - pycondor
@@ -9,9 +10,12 @@ dependencies:
   - h5py
   - corner
   - dill
-  - simple_slurm
   - numba
   - click
   - seaborn
   - sympy
   - nbconvert
+  - jupyter-book
+  - pip
+  - pip:
+      - bayesbeat

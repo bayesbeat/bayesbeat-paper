@@ -14,6 +14,14 @@ To collate the results and produce the ZIP file, run:
 make
 ```
 
+To just collate the results run:
+
+```
+make bayesbeat_inference_results
+```
+
+**Note: this step must be run before running any of the plotting notebooks
+
 ### Result collation
 
 The results are collated into a single file using the `collate_results.py`
@@ -29,8 +37,8 @@ removed the nested directories.
 
 ## Downloading the data release
 
-The data release can be downloaded directly from zenodo or using [`zenodo_get`](https://github.com/dvolgyes/zenodo_get).
-The `Makefile` includes a commend to do this:
+The data release can be downloaded directly from Zenodo or using [`zenodo_get`](https://github.com/dvolgyes/zenodo_get).
+The `Makefile` includes a command to do this:
 
 ```
 make fetch_data_release
@@ -46,7 +54,7 @@ Alternatively, one can run the steps manually:
 zenodo_get 10.5281/zenodo.15479247
 ```
 
-Once downloaded, the unzip the data release using e.g. zip:
+Once downloaded, unzip the data release using e.g. zip:
 
 ```
 unzip bayesbeat_inference_results.zip

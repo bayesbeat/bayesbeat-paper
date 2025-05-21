@@ -1,0 +1,20 @@
+simulated data:
+  - name: model 1
+    path: "../analysis/simulated_data/rundir/model_1_rerun"
+    description: "Simulated data analysis with model 1"
+  - name: model 1 constant noise
+    path: "../analysis/simulated_data/rundir/model_1_constant_noise_rerun"
+    description: "Simulated data analysis with model 1 and constant noise"
+  - name: model 3
+    path: "../analysis/simulated_data/rundir/model_3_7_terms_rerun"
+    description: "Simulated data analysis with model 3"
+real data:
+  - name: model 1
+    path: "../analysis/gens_data/rundir/model_1"
+    description: "Real data analysis with model 1"
+  - name: model 1 constant noise
+    path: "../analysis/gens_data/rundir/model_1_constant_noise"
+    description: "Real data analysis with model 1 and constant noise"
+  - name: model 3
+    path: "../analysis/gens_data/rundir/model_3_7_terms"
+    description: "Real data analysis with model 3 with T=7"

@@ -1,9 +1,9 @@
 format: jb-book
 root: intro
 chapters:
-- file: _source/markdown/data/README
-- file: _source/markdown/analysis/README
+- file: data/README
+- file: analysis/README
   sections:
-  - file: _source/markdown/analysis/simulated_data/README
-  - file: _source/markdown/analysis/gens_data/README
-- file: _source/markdown/plotting/README
+  - file: analysis/simulated_data/README
+  - file: analysis/gens_data/README
+- file: plotting/README

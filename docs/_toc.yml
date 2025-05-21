@@ -7,3 +7,5 @@ chapters:
   - file: analysis/simulated_data/README
   - file: analysis/gens_data/README
 - file: plotting/README
+  sections:
+  - file: plotting/plot_signals

@@ -1,6 +1,6 @@
 # Use of Bayesian Inference to Diagnose Issues in Experimental Measurements of Mechanical Disk Resonators
 
-This is the data release for the paper 'Use of Bayesian Inference to Diagnose Issues in Experimental Measurements of Mechanical Disk Resonators', which can be found [here](https://dcc.ligo.org/LIGO-P2500204).
+This is the data release for the paper 'Use of Bayesian Inference to Diagnose Issues in Experimental Measurements of Mechanical Disk Resonators', which can be found [here](https://arxiv.org/abs/2505.17346).
 
 
 ```{admonition} Work in progress
@@ -9,7 +9,7 @@ This page is still a work in progress and will be updated once the article is pu
 
 ## Cloning the git repository
 
-The git repository that contains all the files to reproduce the analyses can 
+The git repository that contains all the files to reproduce the analyses can
 be cloned using
 
 ```
@@ -27,15 +27,15 @@ For instructions on how to install `conda` see [here](https://docs.conda.io/proj
 
 ## Ringdown Data
 
-In the [data](../data/README.md) section we described the ringdown data included in the data release and how it can be read using
+In the [data](data/README.md) section we described the ringdown data included in the data release and how it can be read using
 functions provided in `bayesbeat`
 
 ## Analyses
 
 We provide scripts to reproduce all of the analyses described in the paper. These are divided between:
 
-- [Analyses using simulated data](../analysis/simulated_data/README.md)
-- [Analyses using real data](../analysis/gens_data/README.md)
+- [Analyses using simulated data(analysis/simulated_data/README.md)
+- [Analyses using real data](analysis/gens_data/README.md)
 
 See each section for further details.
 
@@ -55,5 +55,5 @@ bash download_results.sh
 
 ### Reproducing figures
 
-See [this page](../plotting/README.md) for instructions on how to reproduce the
+See [this page](plotting/README.md) for instructions on how to reproduce the
 results.

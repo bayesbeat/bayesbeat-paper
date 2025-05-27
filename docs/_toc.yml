@@ -9,3 +9,8 @@ chapters:
 - file: plotting/README
   sections:
   - file: plotting/plot_signals
+  - file: plotting/plot_simulated_results
+  - file: plotting/plot_real_data_results
+  - file: plotting/plot_loss
+  - file: plotting/plot_reparameterizations
+  - file: plotting/plot_inference_cost

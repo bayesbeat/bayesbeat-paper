@@ -2,7 +2,12 @@
 
 The figures are produced in various notebooks:
 
-- [Notebook for producing Figure 4](./plot_signals.ipynb)
+- [Signal model comparison](./plot_signals.ipynb)
+- [Results from analyzing simulated data](./plot_real_data_results.ipynb) - this includes plots in the appendices
+- [Results from analyzing real data](./plot_real_data_results.ipynb) - this includes plots in the appendices
+- [Loss plots](./plot_loss.ipynb)
+- [Reparameterization plot (Appendix A)](./plot_reparameterizations.ipynb)
+- [Inference cost (Appendix C)](.//plot_inference_cost.ipynb)
 
 
 ```{important}

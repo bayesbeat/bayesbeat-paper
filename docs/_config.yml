@@ -8,6 +8,7 @@ author: Michael J. Williams, Simon C. Tait, Joseph Bayley, Bryan Bar
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
+  timeout: 120
 
 # Only build the table of contents files
 only_build_toc_files: true

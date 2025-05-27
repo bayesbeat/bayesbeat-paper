@@ -23,7 +23,7 @@ jobs:
       - name: Build the book
         run: |
           cd docs
-          bash build.sh
+          make build
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
